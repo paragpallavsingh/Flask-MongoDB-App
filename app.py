@@ -15,7 +15,7 @@ def get_db():
 
 @app.route('/')
 def ping_server():
-    return "Welcome to the NamG taskmaster."
+    return "Welcome to Parag Pallav Task list hosted using Docker fetching Mongo DB database"
 
 @app.route('/tasks')
 def get_stored_tasks():
