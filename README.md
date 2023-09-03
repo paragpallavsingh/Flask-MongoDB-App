@@ -30,7 +30,11 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
-5. Run Docker Compose
+5. Expose port `5000` for your EC2 instance
+
+<kbd>![image](https://github.com/paragpallavsingh/Flask-MongoDB-App/assets/40052830/38d9135d-054b-444c-b8f2-0f72ce0b996a)</kbd>
+
+6. Run Docker Compose
 ```
 docker-compose up -d
 ```
